@@ -1,0 +1,27 @@
+class andhra:
+  def __init__(self):
+      self.balance=0
+      print("welcome to andhra")
+    
+  def diposit(self):
+      amount = float(input("enter deposit amount"))
+      self.balance +=amount 
+      print("/n amount you want to diposit:", amount)
+    
+  def withdraw(self):
+      amount=float(input("enter amount  to be withdraw:"))
+      if self.balance >=amount:
+         self.balance -=amount 
+         print("/n you withdrew:",amount)
+       
+      else:
+      
+         print("/n you don't have sufficient balance to with draw money")
+      
+  def display(self):
+      print("/n net balance=",self.balance)
+     
+a=andhra()
+a.diposit()
+a.withdraw()
+a.display()
