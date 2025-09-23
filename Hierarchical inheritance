@@ -1,0 +1,21 @@
+lass student():
+  def __init__(self,name,age,rollno):
+    self.name = name
+    self.age = age
+    self.rollno = rollno
+class childstudent1(student):
+  def __init__(self,name,age,rollno):
+    self.name = name
+    self.age = age
+    self.rollno = rollno 
+class childstudent2(student):
+  def __init__(self,name,age,rollno):
+    self.name = name
+    self.age = age
+    self.rollno = rollno
+
+stu1=student("Rishi",18,1)
+stu2=student("Aditya",19,2)
+print(stu1.name,stu1.age,stu1.rollno)
+print(stu2.name,stu2.age,stu2.rollno)
+  
