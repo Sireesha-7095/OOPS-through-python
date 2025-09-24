@@ -1,0 +1,25 @@
+class student1():
+ def name(self):
+     print("rishi is his name")
+ def salary(self):c
+     print("2000 is his salary")
+ def age(self):
+     print("19 is his age")
+
+class student2():
+ def name(self):
+     print("aditya is his name")
+ def salary(self):
+     print("3000 is his salary")
+ def age(self):
+     print("20 is his age")
+
+def fun(obj):
+     obj.name()
+     obj.salary()
+     obj.age()
+
+obj_stu1 = student1()
+obj_stu2 = student2()
+fun(obj_stu1)
+fun(obj_stu2)
